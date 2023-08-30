@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Page!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#FFFF00"
+        android:paddingBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/userNameEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your User Name"
+        android:paddingBottom="10dp"
+        android:padding="20sp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/PasswordEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:padding="20sp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20sp"
+        />
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/goToSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Are you not registered?  Sign In"
+        android:textSize="20dp"
+        android:layout_marginLeft="20sp"
+        />
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpProgressbar"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

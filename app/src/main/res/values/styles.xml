@@ -1,0 +1,18 @@
+<resources>
+    <!-- Define a style -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize style attributes -->
+        <item name="colorPrimary">@color/coloryellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#605B5C</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!-- Define other styles -->
+
+    <style name="navigationTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+</resources>

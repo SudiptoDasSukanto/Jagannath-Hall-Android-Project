@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_homeID"
+            android:title="HOME"
+            android:icon="@drawable/nav_home_icon"/>
+
+        <item
+            android:id="@+id/nav_searchID"
+            android:title="SEARCH"
+            android:icon="@drawable/search_logo"/>
+
+        <item
+            android:id="@+id/nav_all_categoriesID"
+            android:title="ALL CATEGORIES"
+            android:icon="@drawable/nav_home_icon"/>
+
+        <item
+            android:id="@+id/nav_helpID"
+            android:title="HELP LINE"
+            android:icon="@drawable/nav_home_icon"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_loginID"
+                    android:title="LOGIN"
+                    android:icon="@drawable/nav_login"/>
+
+                <item
+                    android:id="@+id/nav_profileID"
+                    android:title="PROFILE"
+                    android:icon="@drawable/gallary_logo"/>
+
+                <item
+                    android:id="@+id/nav_logoutID"
+                    android:title="LOGOUT"
+                    android:icon="@drawable/nav_logout"/>
+
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_canteenID"
+                    android:title="LOGIN"
+                    android:icon="@drawable/nav_login"/>
+
+                <item
+                    android:id="@+id/nav_educationID"
+                    android:title="EDUCATION"
+                    android:icon="@drawable/gallary_logo"/>
+
+                <item
+                    android:id="@+id/nav_teacherID"
+                    android:title="TEACHER"
+                    android:icon="@drawable/nav_logout"/>
+
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_shareID"
+                    android:title="SHARE"
+                    android:icon="@drawable/nav_login"/>
+
+                <item
+                    android:id="@+id/nav_rateusID"
+                    android:title="RATE US"
+                    android:icon="@drawable/gallary_logo"/>
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

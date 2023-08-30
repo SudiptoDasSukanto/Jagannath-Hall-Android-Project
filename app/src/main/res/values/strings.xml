@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SingIn</string>
+    <string-array name="countries_desc">
+        <item>Bangladesh is beautiful</item>
+        <item>India is beautiful</item>
+        <item>USA is beautiful</item>
+        <item>Rassia is beautiful</item>
+        <item>Bangladesh is beautiful</item>
+        <item>Pakistan is beautiful</item>
+        <item>Germany is beautiful</item>
+        <item>Bangladesh is beautiful</item>
+        <item>Bangladesh is beautiful</item>
+        <item>Bangladesh is beautiful</item>
+    </string-array>
+
+    <string-array name="countries_name">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Rassia</item>
+        <item>Bangladesh</item>
+        <item>Pakistan</item>
+        <item>Germany</item>
+        <item>Bangladesh</item>
+        <item>Bangladesh</item>
+        <item>Bangladesh</item>
+    </string-array>
+</resources>
