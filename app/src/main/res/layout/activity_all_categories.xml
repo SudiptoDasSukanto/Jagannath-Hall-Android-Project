@@ -50,8 +50,11 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/categories_car_background"
-                android:layout_margin="20dp">
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/categories_car_background">
 
 
                 <TextView
@@ -67,11 +70,11 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Expand ALL"
+                    android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
-                    android:textColor="@color/black"
-                    android:layout_alignParentBottom="true"/>
+                    android:text="Expand ALL"
+                    android:textColor="@color/black" />
 
             </RelativeLayout>
 
@@ -284,6 +287,47 @@
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/categories_car_background"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhaijaan"
+                    android:padding="25dp"
+
+                    android:text="Car Rent"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expand ALL"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/categories_rent_car_icon"
+                android:layout_marginTop="-40dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
 
 
 
